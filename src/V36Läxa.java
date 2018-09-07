@@ -7,7 +7,8 @@ public class V36Läxa {
 		
 		System.out.println("Vad heter du?");
 		
-		String namn = input.nextLine("Carl");
+		String namn = input.nextLine();
+		
 		
 		
 		}
