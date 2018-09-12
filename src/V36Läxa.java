@@ -17,6 +17,30 @@ public class V36Läxa {
 		
 		System.out.println(age);
 		
+		System.out.println("Vad är din adress?");
+		
+		String adress = input.nextLine();
+		
+		System.out.println(adress);
+		
+		System.out.println("Vad är ditt postnummer?");
+		
+		String postnummer = input.nextLine();
+				
+		System.out.println(postnummer);
+		
+		System.out.println("Vilken stad bor du i?");
+		
+		String stad = input.nextLine();
+		
+		System.out.println(stad);
+
+		System.out.println("Vad är ditt telefonnummer?");
+		
+		String telefonnummer = input.nextLine();
+		
+		System.out.println(telefonnummer);
+		
 		}
 
 }
