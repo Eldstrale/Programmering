@@ -11,8 +11,6 @@ public class s {
 		int max = 99999999;
 		int min = -99999999;
 		
-		double medel1 = summa / 5; // 5
-		double medel2 = summa / 5.0; // 5,6
 
 		// Läs in tal 1
 		int tal1 = input.nextInt();
@@ -44,8 +42,12 @@ public class s {
 		// Läs in tal 10
 		int tal10 = input.nextInt();
 		
-		int summa = tal1 + tal2 + tal3 + tal4 + tal5 + tal6 + tal7 + tal8 + tal9 + tal10
 
+		
+		int summa = tal1 + tal2 + tal3 + tal4 + tal5 + tal6 + tal7 + tal8 + tal9 + tal10;
+		
+		double medel = summa / 10; // 5
+		
 		System.out.println("Minsta: " + min);
 		System.out.println("Största: " + max);
 		System.out.println("Medel: " + medel);
