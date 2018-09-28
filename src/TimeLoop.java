@@ -12,7 +12,7 @@ public class TimeLoop {
 
 		int tal = input.nextInt();
 
-		System.out.println(tal && "Abracadabra");
+		System.out.println(tal + "Abracadabra");
 
 	}
 
