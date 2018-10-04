@@ -6,14 +6,14 @@ public class yuh {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Skriv två tal");
+		System.out.println("Skriv tvÃ¥ tal");
 
 		int ett = input.nextInt();
 		int tva = input.nextInt();
 		if (ett > tva)
-			System.out.println(tva + " Är minst");
+			System.out.println(tva + " Ã„r minst");
 		else
-			System.out.println(ett + " Är minst");
+			System.out.println(ett + " Ã„r minst");
 
 	}
 
