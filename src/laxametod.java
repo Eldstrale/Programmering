@@ -1,3 +1,5 @@
+import jav.util.Scanner;
+
 public class laxametod {
 
 	public static void main(String[] args) {
