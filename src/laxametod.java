@@ -8,7 +8,7 @@ public class laxametod {
 	}
 	public static String reverse(String str) {
 		
-		int length =str.length();
+		int length = str.length();
 		char[] arr = new char[length];
 		for(int i = length -1; i >= 0; i--) {
 			arr[length-(i+1)] = str.charAt(i);
